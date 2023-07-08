@@ -55,7 +55,7 @@ s(t)=
 \right]
 \right\}^3 -\frac{b^3}{q(t)}\;,
 ```
-with $q(t)\!=\!(4\pi D't)^{3/2}$,
+with $q(t)=(4\pi D't)^{3/2}$,
 where $D'=D_\text{donor}+D_\text{acceptor}$ is the
 donor-acceptor inter-diffusion coefficient and $b$ the box-length of the
 cubic MD cell. 
