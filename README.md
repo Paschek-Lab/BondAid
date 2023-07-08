@@ -71,8 +71,7 @@ is given in ps and the box-length $b$ is given in nm, then the diffusion coeffic
 **Command Line Options:**
 -   `-b` : $b$: Box length of the cubic MD cell
 -   `-D` : $D'$: Donor-acceptor inter-diffusion coefficient $D'=D_\text{donor}+D_\text{acceptor}$
--   `-h` : $\langle h\rangle$: 
-Average hydrogen bond population: $\langle h\rangle$ 
+-   `-h` : $\langle h\rangle$: Average hydrogen bond population $\langle h\rangle$ 
 
 **Usage:**
 
