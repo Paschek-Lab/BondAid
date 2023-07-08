@@ -64,4 +64,9 @@ cubic MD cell.
 
 `cat ct_lc.dat | ./correct_bnp.pl -D 0.0041 -b 3.142 -h 0.00093 > ct_bnp.dat`
 
+**command line options:**
+-   `-b` : $b$ Box length of the cubic MD cell
+-   `-D` : Donor-acceptor inter-diffusion coefficient $D'=D_\text{donor}+D_\text{acceptor}$
+-   `-h` : maximum range $m_\mathrm{max}$ of integers $m_\alpha$  with $-m_\mathrm{max} \leq m_\alpha \leq m_\mathrm{max}$ for the real lattice summation
+
 
