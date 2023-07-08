@@ -60,3 +60,7 @@ where $D'=D_\text{donor}+D_\text{acceptor}$ is the
 donor-acceptor inter-diffusion coefficient and $b$ the box-length of the
 cubic MD cell. 
 
+## Usage of the correct_bnp.pl program
+
+
+
