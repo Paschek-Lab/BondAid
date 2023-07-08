@@ -22,7 +22,7 @@ h(t) =
 which is calculated for every donor-acceptor pair separately. 
 The brackets denote averaging over all donor-acceptor pairs 
 of a specific HB  type and all times $t=0$. 
-The ``intermittent'' HB population correlation function $C(t)$ 
+The "intermittent" HB population correlation function $C(t)$ 
 describes the fraction of HBs still intact at time $t$, 
 provided it was intact at $t_{0}=0$, without the need for it 
 to be intact over the whole time interval  $t-t_{0}$. 
