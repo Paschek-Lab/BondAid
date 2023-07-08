@@ -19,3 +19,28 @@ h(t) =
 0, \text{if no HB exists}
 \end{cases}
 ```
+which is calculated for every donor-acceptor pair separately. 
+The brackets denote averaging over all donor-acceptor pairs 
+of a specific HB  type and all times $t\!=\!0$. 
+The ``intermittent'' HB population correlation function $C(t)$ 
+describes the fraction of HBs still intact at time $t$, 
+provided it was intact at $t_{0}=0$, without the need for it 
+to be intact over the whole time interval  $t-t_{0}$. 
+When applied to ``wrapped'' trajectory data (i.e. trajectory data folded into the 
+central unit cell, while computing inter-molecular distances using the 
+``minimum image'' convention),
+the presence of periodic boundary conditions perturbs the 
+long-time limiting behaviour of $C(t)$, leading to %the approaching
+a non-zero plateau value at long times
+```math
+\lim_{t\rightarrow\infty}C(t) = \langle h\rangle
+```
+To appropriately correct the long-time limiting behavior and to
+restore the 
+behavior observed 
+in absence of periodic boundary conditions, we have derived a time-dependent correction
+using
+```math
+\frac{\left\langle h(0)h(t) \right\rangle}
+          {\left\langle h \right\rangle}-\left\langle h \right\rangle s(t)\;,
+```
