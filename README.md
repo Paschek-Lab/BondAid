@@ -66,7 +66,9 @@ cubic MD cell.
 
 **command line options:**
 -   `-b` : $b$ Box length of the cubic MD cell
--   `-D` : Donor-acceptor inter-diffusion coefficient $D'=D_\text{donor}+D_\text{acceptor}$
--   `-h` : maximum range $m_\mathrm{max}$ of integers $m_\alpha$  with $-m_\mathrm{max} \leq m_\alpha \leq m_\mathrm{max}$ for the real lattice summation
+-   `-D` : $D'$ Donor-acceptor inter-diffusion coefficient $D'=D_\text{donor}+D_\text{acceptor}$
+-   `-h` : $\langle h\rangle$   
+Average hydrogen bond population: $\langle h\rangle$ 
+
 
 
