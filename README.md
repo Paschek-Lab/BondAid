@@ -17,5 +17,5 @@ h(t) =
 \begin{cases}
 1, \text{if HB exists}\\
 0, \text{if no HB exists}
-\end{cases
+\end{cases}
 ```
