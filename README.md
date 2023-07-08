@@ -4,8 +4,9 @@ This repository contains a collection of input files and source code as describe
 
 ## Background
 
-The time-dependent fluctuations of the hydrogen bond (HB) population are 
-described by the HB population correlation function using
+The time-dependent fluctuations of bond populations such as
+hydrogen bond (HB) populations are 
+described by the population correlation function using
 the Luzar-Chandler notation
 ```math
 C(t) \approx  \frac{\left\langle h(0)h(t) \right\rangle }
@@ -22,7 +23,7 @@ h(t) =
 which is calculated for every donor-acceptor pair separately. 
 The brackets denote averaging over all donor-acceptor pairs 
 of a specific HB  type and all times $t=0$. 
-The "intermittent" HB population correlation function $C(t)$ 
+The (sometimes labeled as "intermittent") HB population correlation function $C(t)$ 
 describes the fraction of HBs still intact at time $t$, 
 provided it was intact at $t_{0}=0$, without the need for it 
 to be intact over the whole time interval  $t-t_{0}$. 
