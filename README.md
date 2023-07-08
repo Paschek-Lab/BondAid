@@ -69,9 +69,9 @@ contains the time $t$ (here given in units of ps or $10^{-12}\mbox{s}$) and the 
 correlation function $C(t)$. `correct_bnp.pl` reads data from `<STDIN>` and writes data to `<STDOUT>`.
 
 **Command Line Options:**
--   `-b` : $b$: Box length of the cubic MD cell
--   `-D` : $D'$: Donor-acceptor inter-diffusion coefficient $D'=D_\text{donor}+D_\text{acceptor}$
--   `-h` : $\langle h\rangle$: Average hydrogen bond population $\langle h\rangle$ 
+-   `-b` $b$: Box length of the cubic MD cell
+-   `-D` $D'$: Donor-acceptor inter-diffusion coefficient $D'=D_\text{donor}+D_\text{acceptor}$
+-   `-h` $\langle h\rangle$: Average hydrogen bond population $\langle h\rangle$ 
 
 Note: the units of the specified quantities have to fullfill the condition
 $D't/b^2=u$, where $u$ is a dimensionless quantity. Suppose the $t$-data of $C(t)$ in
