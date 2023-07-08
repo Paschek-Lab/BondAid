@@ -6,7 +6,7 @@ This repository contains a collection of input files and source code as describe
 
 The time-dependent fluctuations of bond populations such as
 hydrogen bond (HB) populations are 
-described by the population correlation function using
+described by a population correlation function using
 the Luzar-Chandler notation
 ```math
 C(t) \approx  \frac{\left\langle h(0)h(t) \right\rangle }
