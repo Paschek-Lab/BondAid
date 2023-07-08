@@ -64,7 +64,7 @@ cubic MD cell.
 
 Note: the units of the specified quantities have to fullfill the condition
 $D't/b^2=u$, where $u$ is a dimensionless quantity. Suppose the $t$-data of $C(t)$ in
-file `ct\_lc.dat`
+file `ct_lc.dat`
 is given in ps and the box-length $b$ is given in nm, then the diffusion coefficient $D'$ has to be specified in $\text{nm}^2/\text{ps}$. 
 
 
