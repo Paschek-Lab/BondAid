@@ -62,6 +62,10 @@ cubic MD cell.
 
 ## Usage of the "correct_bnp" Program
 
+`correct_bnp.pl` is a Perl script that transforms a bond population time correlation function computed 
+via the Luzar-Chandler approach, which is stored in a ASCII file (here: `ct_lc.dat`) containing two colums: The first column
+contains the time information (here given in units of ps or $10^{-12}\mbox{s}$).
+
 Note: the units of the specified quantities have to fullfill the condition
 $D't/b^2=u$, where $u$ is a dimensionless quantity. Suppose the $t$-data of $C(t)$ in
 file `ct_lc.dat`
