@@ -30,7 +30,7 @@ When applied to "wrapped" trajectory data (i.e. trajectory data folded into the
 central unit cell, while computing inter-molecular distances using the 
 "minimum image" convention),
 the presence of periodic boundary conditions perturbs the 
-long-time limiting behaviour of $C(t)$, leading to %the approaching
+long-time limiting behaviour of $C(t)$, leading to 
 a non-zero plateau value at long times
 ```math
 \lim_{t\rightarrow\infty}C(t) = \langle h\rangle
@@ -44,3 +44,19 @@ using
 \frac{\left\langle h(0)h(t) \right\rangle}
           {\left\langle h \right\rangle}-\left\langle h \right\rangle s(t)\;,
 ```
+where $s(t)$ represents a time-dependent ``switching'' function
+```math
+s(t)=
+\frac{b^3}{q(t)}
+\left\{1+
+2 \sum_{n=1}^\infty 
+\exp\left[
+-\frac{b^2 n^2}{4 D't} 
+\right]
+\right\}^3 -\frac{b^3}{q(t)}\;,
+```
+with $q(t)\!=\!(4\pi D't)^{3/2}$,
+where $D'=D_\text{donor}+D_\text{acceptor}$ is the
+donor-acceptor inter-diffusion coefficient and $b$ the box-length of the
+cubic MD cell. 
+
