@@ -62,5 +62,6 @@ cubic MD cell.
 
 ## Usage of the "correct_bnp" Program
 
+`-kmax`
 `cat ct_lc.dat | ./correct_bnp.pl -D 0.0041 -b 3.142 -h 0.00093 > ct_bnp.dat'
 
