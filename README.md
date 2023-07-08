@@ -67,16 +67,15 @@ via the Luzar-Chandler approach, which is stored in a ASCII file (here: `ct_lc.d
 contains the time $t$ (here given in units of ps or $10^{-12}\mbox{s}$) and the second colum contains the
 correlation function $C(t)$. `correct_bnp.pl` reads data from `<STDIN>` and writes data to `<STDOUT>`.
 
-Note: the units of the specified quantities have to fullfill the condition
-$D't/b^2=u$, where $u$ is a dimensionless quantity. Suppose the $t$-data of $C(t)$ in
-file `ct_lc.dat`
-is given in ps and the box-length $b$ is given in nm, then the diffusion coefficient $D'$ has to be specified in $\text{nm}^2/\text{ps}$. 
-
-
 **Command Line Options:**
 -   `-b` : $b$: Box length of the cubic MD cell
 -   `-D` : $D'$: Donor-acceptor inter-diffusion coefficient $D'=D_\text{donor}+D_\text{acceptor}$
 -   `-h` : $\langle h\rangle$: Average hydrogen bond population $\langle h\rangle$ 
+
+Note: the units of the specified quantities have to fullfill the condition
+$D't/b^2=u$, where $u$ is a dimensionless quantity. Suppose the $t$-data of $C(t)$ in
+file `ct_lc.dat`
+is given in ps and the box-length $b$ is given in nm, then the diffusion coefficient $D'$ has to be specified in $\text{nm}^2/\text{ps}$. 
 
 **Usage:**
 
