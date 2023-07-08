@@ -62,13 +62,13 @@ cubic MD cell.
 
 ## Usage of the "correct_bnp" Program
 
-`cat ct_lc.dat | ./correct_bnp.pl -D 0.0041 -b 3.142 -h 0.00093 > ct_bnp.dat`
-
-**command line options:**
+**Command Line Options:**
 -   `-b` : $b$ Box length of the cubic MD cell
 -   `-D` : $D'$ Donor-acceptor inter-diffusion coefficient $D'=D_\text{donor}+D_\text{acceptor}$
 -   `-h` : $\langle h\rangle$   
 Average hydrogen bond population: $\langle h\rangle$ 
 
+**Usage:**
 
+`cat ct_lc.dat | ./correct_bnp.pl -D 0.0041 -b 3.142 -h 0.00093 > ct_bnp.dat`
 
