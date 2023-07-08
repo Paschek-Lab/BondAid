@@ -26,9 +26,9 @@ The "intermittent" HB population correlation function $C(t)$
 describes the fraction of HBs still intact at time $t$, 
 provided it was intact at $t_{0}=0$, without the need for it 
 to be intact over the whole time interval  $t-t_{0}$. 
-When applied to ``wrapped'' trajectory data (i.e. trajectory data folded into the 
+When applied to "wrapped" trajectory data (i.e. trajectory data folded into the 
 central unit cell, while computing inter-molecular distances using the 
-``minimum image'' convention),
+"minimum image" convention),
 the presence of periodic boundary conditions perturbs the 
 long-time limiting behaviour of $C(t)$, leading to %the approaching
 a non-zero plateau value at long times
