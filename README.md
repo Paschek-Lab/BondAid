@@ -82,3 +82,5 @@ is given in ps and the box-length $b$ is given in nm, then the diffusion coeffic
 
 `cat ct_lc.dat | ./correct_bnp.pl -D 0.0041 -b 3.142 -h 0.00093 > ct_bnp.dat`
 
+For further information, please contact [the authors](mailto:dietmar.paschek@uni-rostock.de).
+
