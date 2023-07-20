@@ -5,9 +5,9 @@ This repository contains a collection of input files and source code as describe
 
 The repository is structured as follows:
 
-- [example/](example/) contains the required input files for the molecular dynamics simulations of TIP4P/2005 water at 298 K. The simulations were performed with the GROMACS 5.0.6 software package. If not indicated differently, the simulations are performed under NVT conditions at a temperature of 298 K and a density $\rho=0.9972$ $\mbox{g}$ $\mbox{cm}^{-3}$. All parameters different from default can be found in `SIMXX.mdp` while `sim1out.mdp` include all used parameters. For naming convention, please refer to the Gromacs-5.0.6-manual. The start configurations are stored in `START.gro`, the corresponding force field parameters can be found in `topol.top`
+- [example/](example/) contains examples for performing the "BNP"-correction ot hydrogen bond population time correlation functions (HBPCFs) computed via the Luzar-Chandler approach. The HBPCFs were obtained from MD simulations of a system of 1024 TIP4P/2005 water molecules at $T=273\,\mbox{K}$ and $T=298\,\mbox{K}$ published in [J. Chem. Phys. 154, 214501 (2021)](https://www.doi.org/10.1063/5.0053445) are stored in files `ct_luzar_chandler_1024W_273K.dat` and ct_luzar_chandler_1024W_298K.dat`. The shell-skript `mk_bnp.sh` is performing the correction.
 
-- [src/](src/) contains the Perl source code. `correct_bnp.pl` is a Perl script that performs the long-time correction on a bond population time correlation function via the Luzar-Chandler approach.
+- [src/](src/) contains the Perl source code. `correct_bnp.pl` is a Perl script that performs the long-time correction on a hydrogen bond population time correlation function via the Luzar-Chandler approach.
 
 ## Background
 
