@@ -51,7 +51,7 @@ using
 \frac{\left\langle h(0)h(t) \right\rangle}
           {\left\langle h \right\rangle}-\left\langle h \right\rangle s(t)\;,
 ```
-where $s(t)$ represents a time-dependent ``switching'' function
+where $s(t)$ represents a time-dependent ''switching'' function
 ```math
 s(t)=
 \frac{b^3}{q(t)}
